@@ -1,6 +1,8 @@
-# FashionMNIST - Convolution Neural Network
+# FashionMNIST using  Convolution Neural Network
 
-The model is trained and tested
+Model is Trained and then Validated using CNN.<br>
+A Simple Neural Network is trained and some images from FashionMNIST dataset are evaluated to check the models accuracy
 
 
-![FashionMnistCnn](https://user-images.githubusercontent.com/113373212/192337452-ddfbb853-18ef-42d5-907e-bb27a6f8a976.png)
+
+![FashionMnistCNN](https://user-images.githubusercontent.com/113373212/192343987-f9776503-124e-4fa1-b771-6a666f097be8.png)
