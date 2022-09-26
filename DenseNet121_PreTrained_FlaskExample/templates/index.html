@@ -8,7 +8,8 @@
     <body>
         <script>
             function preview() 
-            {      
+            {   
+                display_image.style.visibility = "visible"
                 display_image.src=URL.createObjectURL(event.target.files[0]);
             }
         </script>  
@@ -20,7 +21,7 @@
             <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
             <br>
             <br>
-        <img id="display_image" src="" width="300" height="300"/>
+        <img id="display_image" src="" width="300" height="300" style="visibility:hidden"/>
         </form>
 
 
