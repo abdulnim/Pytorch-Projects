@@ -2,7 +2,7 @@
 
 -This is a very simple example of defect segmentation in steel <br>
 -I am using "resnet18" as a backbone which act as an encoder in Unet architecture. the encoder weights were trained using "imagenet".
--The dataset used is "Severstal: Steel Defect Detection" which have 4 classes for for simplicity i just used all the defect as a single class defect.
+-The dataset used is "Severstal: Steel Defect Detection" which have 4 defective classes but for simplicity i just used all the defect as a single class.
 
 -The model was trained for 3 epochs using "BCEWithLogitsLoss" function and achieved around 95% accuracy on validation dataset.
 
